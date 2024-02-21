@@ -20,7 +20,7 @@ int main()
 						float r,t,p;
 						printf("enter time rate and amount");
 						scanf("%f%f%f",&r,&t,&p);
-						printf("si is %f",(r*t*p)/1000);
+						printf("si is %f",(r*t*p)/100);
 						break;
 						}
 						case 3:
