@@ -3,7 +3,7 @@
 int main()
 {
 	int w;
-	printf("enter which program you want to run. \n 1.sum of 2 numbers. \n2.simple intreset. \n3.check + or -. \n4.odd or even. \n5.largest number(3). \n6 number and sun. \n7.sun of serise. \n8.factorial, \n9 electric bill. \n 10 reverse. \n 11 faconabic serise. \n12 count degit sum in number. \n13. greatest and disivle by 7. \n14 hcf and lcm of two number . \n15 prime number of two number  ");
+	printf("enter which program you want to run. \n 1.sum of 2 numbers. \n2.simple intreset. \n3.check + or -. \n4.odd or even. \n5.largest number(3). \n6 number and sun. \n7.sun of serise. \n8.factorial, \n9 electric bill. \n 10 reverse. \n 11 fibonacci serise. \n12 count digit sum in number. \n13. greatest and divisible by 7. \n14 hcf and lcm of two number . \n15 prime number of two number  ");
 	scanf("%d",&w);
 	switch (w)
 	{
@@ -104,7 +104,7 @@ int main()
 																		scanf("%d",&a);
 																		for (i=1;i<a;i++)
 																		{
-																			j=i*(i+1);
+																			j=j(i+1);
 																			
 																			}
 																			printf("factorial is %d",j);
@@ -113,7 +113,7 @@ int main()
 																		case 9:
 																			{
 																				int a,c;
-																				printf("enter your elecrtic unit");
+																				printf("enter your electric unit");
 																				scanf("%d",&a);
 																				if (a<=20)
 																				{
