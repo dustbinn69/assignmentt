@@ -205,31 +205,31 @@ void specificbus(int bus_num)
 	{
 		printf("\nbus:\t\t\tmukesh Travels ");
 		printf("\nDestination:\t\tpokhara to Kavre");
-		printf("\nDeparture:\t\t9am ");
+		printf("\nDeparture:\t\t9:00am ");
 	}
 	if (bus_num == 1002)
 	{
 		printf("\nbus:\t\t\tmission Travels ");
 		printf("\nDestination:\t\tpokhara to Dharan");
-		printf("\nDeparture:\t\t12pm");
+		printf("\nDeparture:\t\t12:00pm");
 	}
 	if (bus_num == 1003)
 	{
 		printf("\nbus:\t\t\tHero Travels ");
 		printf("\nDestination:\t\tdharan to Pokhara");
-		printf("\nDeparture:\t\t8am");
+		printf("\nDeparture:\t\t1:50am");
 	}
 	if (bus_num == 1004)
 	{
 		printf("\nbus:\t\t\tnsbin Deluxe ");
 		printf("\nDestination:\t\tPokhara to dhangadhi");
-		printf("\nDeparture:\t\t11am ");
+		printf("\nDeparture:\t\t11:00am ");
 	}
 	if (bus_num == 1005)
 	{
 		printf("\nbus:\t\t\tpawan Travels ");
 		printf("\nDestination:\t\tkavre to pokhara");
-		printf("\nDeparture:\t\t7am");
+		printf("\nDeparture:\t\t7:05am");
 	}
 	if (bus_num == 1006)
 	{
@@ -241,25 +241,25 @@ void specificbus(int bus_num)
 	{
 		printf("\nbus:\t\t\tnepal Travels");
 		printf("\nDestination:\t\tjumla  to pokhara ");
-		printf("\nDeparture:\t\t1pm ");
+		printf("\nDeparture:\t\t1:00pm ");
 	}
 	if (bus_num == 1008)
 	{
 		printf("\nbus:\t\t\tkundan Travels ");
 		printf("\n Destination:\t\tpokhara to jumla");
-		printf("\nDeparture:\t\t4pm ");
+		printf("\nDeparture:\t\t4:00pm ");
 	}
 	if (bus_num == 1009)
 	{
 		printf("\nbus:\t\t\tKathmandu Express");
 		printf("\nDestination:\t\tKathmandu to Pokhara");
-		printf("\nDeparture:\t\t3.35pm ");
+		printf("\nDeparture:\t\t5.35pm ");
 	}
 	if (bus_num == 1010)
 	{
 		printf("\nbus:\t\t\tSajha Yatayat");
 		printf("\nDestination:\t\tPokhara to Kathmandu");
-		printf("\nDeparture:\t\t1.15 ");
+		printf("\nDeparture:\t\t4.15 ");
 	}
 }
 
